@@ -56,52 +56,154 @@
 .size{
     float: left;
 }
-.sa{
-    margin-left: 10%;
+.mini-banners-1{
+	max-width: 900px;
+	margin: 0 auto;	
+	width: 100%;
 }
-.saba123{
-    font-size:large;
-    font-size: 30px;
-    text-align: center;
+.test{
+	margin-right: 50px;
 }
-.saba12{
-    font-size: 15px;
-    text-align: center;
-    margin-top:1%;
+.mini-banners-2{
+	max-width: 900px;
+	margin: 0 auto;	
 }
-.saba1234{
-    width: 400px;
-    text-align: center;
-    margin-top:1%;
+.container-2{
+	max-width: 900px;
+	margin: 0 auto;
+	margin-top: 90px;
 }
-.main-div1{
-    float: right;
-    margin-right: 18%;
+.mini-banners-h3{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-size: 30px;
+	color: #282828;
 }
-.main-div0{
-    margin:0 auto;
-    width: 1064px;
+.mini-banners-h1{
+	margin-bottom: 20px;
+	color: #282828;
+	font-size: 14px;
 }
-.spo{
-    width: 400px;
-    text-align: center;
-    margin-bottom: 10%;
+.mini-banners-p{
+	margin-bottom: 20px;
+	color: #282828;
+	font-size: 14px;
+	margin-bottom: 100px;
 }
-.tx{
-    text-align: center;
+.img-zomebi{
+	width: : 420px;
+	height: 283px;
 }
-.sopo{
-    margin-top: 79%;
-    font-size: 30px;
+.imgimg{
+    width: 421px;
+    height: 280px;
 }
-.sopo2{
-    margin-bottom: 2%;
-}
-.main-div3{
-    margin:0 auto;
-    width: 1064px;
+/*graybg*/
+.gray-bg{
+	width: 100%;
+	background-color: #282828;
+	padding: 50px 0 50px 0;
 
 }
-.gle{
-    margin-top: 50%;
+.gray-bg-p{
+	text-align: center;
+	padding-bottom: 40px;
 }
+
+.terms{
+	display: inline-block;
+	float: left;
+}
+.social{
+	display: inline-block;
+	float: right;
+}
+.footer{
+	background-color: #282828;
+	padding: 1px 0 50px 0;
+
+}
+.media-responsive{
+	width:50%;
+	margin-bottom: 100px;
+}
+.img-zomebi{
+	margin: auto;
+}
+.mini-banners-p{
+	margin: auto;
+	text-align: center;
+}
+.mini-banners-h1{
+        text-align: center;
+    }
+    .input{
+        margin-left: 43%;
+        align-items: center;
+        justify-content: center;
+        width: 200px;
+        padding-top:80px;
+        margin:auto;
+        box-sizing: border-box;
+        border: none;
+         border-bottom: 2px solid black;
+         background-color: #282828;
+         
+    }
+    input[type=button] {
+        background-color: black;
+        border: none;
+        color: white;
+        padding: 16px 32px;
+        text-decoration: none;
+        margin: 4px 2px;
+        cursor: pointer;
+      }
+      .maili{
+          background-color: #f0f0f0;
+          height: 300px;
+      }
+      .pele{
+          font-size: 30px;
+          text-align: center;
+          padding:80px ;
+      }
+      .sea{
+        margin-left: 43%;
+      }
+      .raca1{
+          float: right;
+      }
+      .popt{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-size: 30px;
+        color: #282828;
+      }
+      .popts{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-size: 30px;
+        color: #282828;
+      }
+      .popits{
+          width: 400px;;
+      }
+      .mini-bannerss-1{
+        max-width: 900px;
+        margin: 0 auto;	
+        width: 100%;
+        margin-top:3%;;
+      }
+      .lastd{
+          background-color: cornsilk;
+          width: 165px;
+          margin-left: 45%;
+       }
+      .bolo{
+        width: 165px;
+        border: 2px solid gray;
+        height: 50px;;
+        text-align: center;
+        padding-top: 15px;;
+      }
