@@ -1,3 +1,4 @@
+
 .main-div{
     width:1064px;
     margin: 0 auto;
@@ -91,7 +92,7 @@
 	margin-bottom: 100px;
 }
 .img-zomebi{
-	width: : 420px;
+	width:  420px;
 	height: 283px;
 }
 .imgimg{
@@ -112,7 +113,7 @@
 
 .terms{
 	display: inline-block;
-	float: left;
+	
 }
 .social{
 	display: inline-block;
@@ -194,6 +195,7 @@
         margin: 0 auto;	
         width: 100%;
         margin-top:3%;;
+        flex-wrap: nowrap;
       }
       .lastd{
           background-color: cornsilk;
@@ -207,49 +209,178 @@
         text-align: center;
         padding-top: 15px;;
       }
-      @media only screen and (max-width:1368px){
-          .main-div{
-              width: 1023px;
-          }
-     .banner{
-         width:100%;
-     }
-     .nav{
-        margin-right: 15%;
-    }
-    .h2{
-        font-size: 20px;
-    }
-    .p1{
-        font-size: 13px;
-    width: 850px;
-    }
+      .fas{
+          display: none;
       }
-    @media  (max-width:1022px){
-        .main-div{
-            width:766px;
+       @media only screen and (max-width:1064px) {
+        .main-div {
+            width:1024px;
         }
-        .banner{
-            margin-left:3%;
+        .banneer{
+            margin-left: -17%;
+            width: 117%;
         }
-       
-        .logo{
+        }
+    
+        @media  (max-width:1023px) {
+            body{
+              
+            }
+            .main-div{
+                width:768px;
+            }
+          .p1{
+            width: 91%;
+          }
+          .mini-banners-1{
+            margin-left: 1%;
+          }
+          .mini-banners-2{
             margin-left: 3%;
+          }
+          .banneer {
+    width: 125%;
+}
+          }
+          .imgimg{
+            width: 95%;
+          }
+          .lastd {
+            background-color: cornsilk;
+            width: 165px;
+            margin-left: 39%;
         }
-        .h1{
-            margin-left: 15%;
+         
+        @media  (max-width:548px) {
+            .main-div{
+                width:425px;
+            }
+            .mini-banners-1 {
+                margin-left: 0%;
+                flex-wrap: wrap;
+            }
+          .p1 {
+            margin-left: 0%;
+            font-size: 13px;
         }
-        .h2{
-            margin-left: 6%;
+        .mini-banners-2 {
+            margin-left: 0%;
+            flex-wrap: wrap;
         }
-        .p1{
-            margin-left: 6%;
+          .mini-bannerss-1{
+            margin-left: 0%;
+            flex-wrap: wrap;
+          }
+          .maili {
+            width: 99%;
         }
-        .lastp{
-            margin-left: 6%;
-            margin-bottom: 1%;
-        }
-        .maili{
-            width: 111%;
-        }
-    }
+            .sea {
+                margin-left: 26%;
+            }
+            .nav{
+                display: none;
+                }
+            .fas{
+                display: block;
+             }
+             
+            .dd{
+                margin-left: -16%;
+            }
+            .banneer {
+                width: 117%;
+            }
+            
+             @media  (max-width:423px) {
+                .main-div{
+                    width:375px;
+                }
+                .maili {
+                    width: 155%;
+                }
+                .banneer {
+                    width: 167%;
+                }
+                .h1 {
+                    margin-left: 50%;
+                }
+                .h2{
+                    width: 111%;
+                }
+                .p1 {
+                    width: 142%;
+                    margin-left: 4%;
+                }
+                .nav{
+                    display: none;
+                    }
+                .fas{
+                    display: block;
+                 }
+                 .mini-banners-1 {
+                    margin-left: 20%;
+                    flex-wrap: wrap;
+                }
+                .mini-banners-2 {
+                    margin-left: 20%;
+                    flex-wrap: wrap;
+                }
+                .mini-bannerss-1 {
+                    margin-left: 20%;
+                    flex-wrap: wrap;
+                }
+                .maili {
+                    width: 148%;
+                }
+                @media  (max-width:374px) {
+                    .main-div{
+                        width:320px;
+                    }
+                    .banneer {
+                        width: 117%;
+                    }
+                    .h1 {
+                        margin-left: 2%;
+                    }
+                    .h2{
+                        font-size: 21px;
+                    }
+                    .p1{
+                        width: 93%;
+                    }
+                    .mini-banners-h3 {
+                        margin-top: -90px;
+                        margin-bottom: 20px;
+                        font-size: 30px;
+                        color: #282828;
+                    }
+                    .imgimg {
+                        width: 59%;
+                        height: 61%;
+                    }
+                    .mini-banners-2 {
+                        margin-left: 7%;
+                        flex-wrap: wrap;
+                    }
+                    
+                    .mini-banners-2 {
+                        margin-left: 7%;
+                        flex-wrap: wrap;
+                    }
+        
+                    .mini-bannerss-1 {
+                        margin-left: 7%;
+                        flex-wrap: wrap;
+                    }
+                    .mini-banners-1 {
+                        margin-left: 7%;
+                        flex-wrap: wrap;
+                    }
+                    .maili {
+                        width: 100%;
+                    }
+                    .sea{
+                        margin-left: 8%;
+                    }
+                    
+                                                            
