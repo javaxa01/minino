@@ -217,7 +217,7 @@
             width:1024px;
         }
         .banneer{
-            margin-left: -17%;
+            margin-left: -8%;
             width: 117%;
         }
         }
@@ -239,8 +239,7 @@
             margin-left: 3%;
           }
           .banneer {
-    width: 125%;
-}
+            width: 117%;
           }
           .imgimg{
             width: 95%;
@@ -250,8 +249,14 @@
             width: 165px;
             margin-left: 39%;
         }
+        .nav-ul{
+            margin-right: 6%;
+        }
+        .maili{
+            width: 100%;
+        }
          
-        @media  (max-width:548px) {
+        @media  (max-width:767px) {
             .main-div{
                 width:425px;
             }
@@ -291,7 +296,7 @@
                 width: 117%;
             }
             
-             @media  (max-width:423px) {
+             @media  (max-width:424px) {
                 .main-div{
                     width:375px;
                 }
@@ -337,7 +342,7 @@
                         width:320px;
                     }
                     .banneer {
-                        width: 117%;
+                        width: 108%;
                     }
                     .h1 {
                         margin-left: 2%;
@@ -358,22 +363,18 @@
                         width: 59%;
                         height: 61%;
                     }
-                    .mini-banners-2 {
-                        margin-left: 7%;
-                        flex-wrap: wrap;
-                    }
                     
                     .mini-banners-2 {
-                        margin-left: 7%;
+                        margin-left: 12%;
                         flex-wrap: wrap;
                     }
         
                     .mini-bannerss-1 {
-                        margin-left: 7%;
+                        margin-left: 12%;
                         flex-wrap: wrap;
                     }
                     .mini-banners-1 {
-                        margin-left: 7%;
+                        margin-left: 12%;
                         flex-wrap: wrap;
                     }
                     .maili {
